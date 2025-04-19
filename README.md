@@ -8,9 +8,9 @@ A robust Cypress-based end-to-end testing suite for [https://www.saucedemo.com](
 
 **👨‍💻 Software QA Engineer**  
 Passionate about building reliable, automated testing systems that ensure product quality and user experience.  
-Email: your.email@example.com  
-GitHub: [your-username](https://github.com/your-username)
-
+Email: ravrommelbanaag@gmail.com <br>
+GitHub: [banaagravrommel](https://github.com/banaagravrommel) <br>
+Upwork: [Upwork](https://www.upwork.com/freelancers/~01b284d446bbd60450)
 ---
 
 ## ✅ Features Tested
@@ -49,4 +49,35 @@ GitHub: [your-username](https://github.com/your-username)
 ---
 
 ## 📁 Project Structure
-
+```bash
+cypress-e-commerce-project/
+│
+├── cypress/
+│   ├── e2e/                  # All test specs (login, cart, etc.)
+│   │   ├── login.cy.js
+│   │   ├── cart.cy.js
+│   │   ├── checkout.cy.js
+│   │   ├── inventory.cy.js
+│   │   ├── navigation.cy.js
+│   │   ├── performance.cy.js
+│   │   └── visual.cy.js
+│   │
+│   ├── pages/                # Page Objects
+│   │   ├── LoginPage.js
+│   │   ├── InventoryPage.js
+│   │   ├── CartPage.js
+│   │   ├── CheckoutPage.js
+│   │   └── Navbar.js
+│   │
+│   ├── support/              # Custom commands and setup
+│   │   ├── e2e.js
+│   │   └── commands.js
+│   │
+│   └── results/              # Performance logs, screenshots, videos
+│
+├── .github/workflows/        # GitHub Actions CI configuration
+│   └── cypress-ci.yml
+│
+├── cypress.config.js         # Cypress configuration
+├── package.json              # Project metadata and dependencies
+└── README.md                 # Project documentation
